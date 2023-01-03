@@ -1,5 +1,4 @@
-import fastvect.{given, *}
-import fastvect.VectOps.{given, *}
+import fastvect.*
 import fastvect.list.{given, *}
 
 val zero: Vect[0, String] = Vect.empty[String]

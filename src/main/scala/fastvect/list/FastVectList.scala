@@ -42,7 +42,7 @@ given ListVectOps(using
       Vect.type,
       Vect
     ]
-): VectOps.VectOps[Vect] with
+): VectOps[Vect] with
 
   extension [T](elem: T)
     @targetName("prepend")

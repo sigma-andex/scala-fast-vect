@@ -6,8 +6,7 @@ Fast, type-safe vector libary for Scala. This library is a port of my Purescript
 ## Usage
 
 ```scala
-import fastvect.{given, *}
-import fastvect.VectOps.{given, *}
+import fastvect.*
 import fastvect.list.{given, *}
 
 val zero: Vect[0, String] = Vect.empty[String]
